@@ -1,0 +1,282 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	/* background: url(image/蓝色背景.jpg) no-repeat ; */
+	background-size: cover;
+}
+
+ .page1 img { 
+	position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 10.3rem;
+	
+}
+
+.page1 img:nth-of-type(2) {
+	width: 7.61rem;
+	height: 10rem;
+}
+
+.page1 img:nth-of-type(3) {
+	width: 4.5rem;
+	height: 5rem;
+	left: 2rem;
+	top: 1rem;
+}
+
+.page1 img:nth-of-type(4) {
+	width: 6rem;
+	left: 0.8rem;
+	top: 6rem;
+}
+
+.page1 img:nth-of-type(5) {
+	width: 4rem;
+	right: 1.5rem;
+	top: 6.6rem;
+}
+.page1 img:nth-of-type(6) {
+	width: 5rem;
+    left: 1.4rem;
+    top: 8.2rem;
+}
+
+.page1 img:nth-of-type(7) {
+	width: 4rem;
+    left: .2rem;
+    top: 11.5rem;
+}
+
+.page1 img:nth-of-type(8) {
+    width: 2.1rem;
+    left: 3.2rem;
+    top: 11rem;
+}
+.page1 img:nth-of-type(9) {
+	width: 3.3rem;
+    left: 4.5rem;
+    top: 11.6rem;
+}
+
+/* PAGE2 */
+.page2 {
+	background: url(image/蓝色背景.jpg) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 10.3rem;
+}
+
+.page2 img:nth-of-type(2){
+	width: 6.5rem;
+	top:1.5rem;
+	left:.5rem;
+
+}
+.page2 img:nth-of-type(3){
+	width:1.3rem;
+	top:.2rem;
+	left:1rem;
+}
+.page2 img:nth-of-type(4){
+	width:1.3rem;
+	top:.2rem;
+	right:.6rem;
+}
+
+.page2 img:nth-of-type(5){
+	width: 3.3rem;
+    top: 0.6rem;
+    right: 1.9rem;
+}
+.page2 img:nth-of-type(6){
+	width:5.7rem;
+	top:2.6rem;
+	right:1rem;
+	left:1rem;
+}
+.page2 img:nth-of-type(7){
+	width:5.7rem;
+	top:6.6rem;
+	right:1rem;
+	left:.9rem;
+}
+.page2 img:nth-of-type(8){
+	width:5.8rem;
+	top:10.5rem;
+	right:1rem;
+	left:.9rem;
+}
+
+/* PAGE3*/
+.page3 {
+	background: url(image/蓝色背景.jpg) no-repeat;
+	background-size: cover;
+}
+
+.page3 img {
+	position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+	width: 10.3rem;
+}
+.page3 img:nth-of-type(2){
+	width: 7rem;
+	top:1rem;
+	left:.3rem;
+
+}
+.page3 img:nth-of-type(3) {
+	width:4rem;
+	top:1.5rem;
+	right:1.7rem;
+}
+.page3 img:nth-of-type(4) {
+	width:2rem;
+	top:4rem;
+	left:1.5rem;
+}
+.page3 img:nth-of-type(5) {
+	width:2.6rem;
+	top:3.9rem;
+	right:1.3rem;
+}
+.page3 img:nth-of-type(6) {
+	width:2rem;
+	top:7rem;
+	left:1.5rem;
+}
+.page3 img:nth-of-type(7) {
+	width:2.6rem;
+	top:7rem;
+	right:1.3rem;
+}
+.page3 img:nth-of-type(8) {
+	width:5rem;
+	top:10rem;
+	right:1.2rem;
+}
+/* page4 */
+.page4 {
+	background: url(image/蓝色背景.jpg) no-repeat;
+	background-size: cover;
+}
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+	width: 7rem;
+}
+.page4 img:nth-of-type(2){
+	width: 7rem;
+	top:1rem;
+	left:.3rem;
+
+}
+.page4 img:nth-of-type(3){
+	width:4rem;
+	top:1.5rem;
+	right:1.7rem;
+}
+.page4 img:nth-of-type(4){
+	width:4rem;
+	top:4rem;
+	right:1.7rem;
+}
+.page4 img:nth-of-type(5){
+	width:2rem;
+	top:6rem;
+	left:1.7rem;
+}
+.page4 img:nth-of-type(6){
+	width:2rem;
+	top:6rem;
+	right:1.7rem;
+}
+.page4 img:nth-of-type(7){
+	width: 5rem;
+    top: 8rem;
+	right: 1.3rem;
+}
+.page4 img:nth-of-type(8){
+	width: 6rem;
+    top: 10.5rem;
+	right: .6rem;
+}
+/* page5 */
+.page5 {
+	background: url(image/蓝色背景.jpg) no-repeat;
+	background-size: cover;
+}
+
+.page5 img {
+	position: absolute;
+}
+
+.page5 img:nth-of-type(1) {
+	width: 10.3rem;
+}
+.page5 img:nth-of-type(2){
+	width: 7rem;
+	top:1rem;
+	left:.3rem;
+
+}
+.page5 img:nth-of-type(3){
+	width: 4.5rem;
+    top: 1.5rem;
+    left: 1.6rem;
+}
+.page5 img:nth-of-type(4){
+	width: 4.5rem;
+    top: 4rem;
+    left: 1.6rem;
+}
+.page5 img:nth-of-type(5){
+    width: 4.5rem;
+    top: 4.5rem;
+    left: 1.61rem;
+}
+.page5 img:nth-of-type(6){
+    width: 4.5rem;
+    top: 6rem;
+    left: 1.61rem;
+}
+.page5 img:nth-of-type(7){
+	width: 4.45rem;
+    top: 6.57rem;
+    left: 1.61rem;
+}
+.page5 img:nth-of-type(8){
+	width: 4.5rem;
+    top: 8.5rem;
+    left: 1.61rem;
+}
+.page5 img:nth-of-type(9){
+	width: 4.5rem;
+    top: 8.96rem;
+    left: 1.62rem;
+}
+.page5 img:nth-of-type(10){
+	width: 6rem;
+    top: 10.5rem;
+	right: .6rem;
+}
